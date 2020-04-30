@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px auto;
+  width: 750px;
+  height: 100px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.value {
+  font-size: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+.label {
+  text-align: left;
+  font-family: fantasy;
+  font-size: 35px;
+}
+
+.btnWrap {
+  margin: 30px auto;
+  width: 750px;
+  height: 100px;
+  text-align: center;
+}
+
+button {
+  margin: 30px 50px;
+  width: 200px;
+  height: 30px;
+  color: green;
+  font-family: fantasy;
+  font-size: 20px;
+}
+
+.start {
+  color: green;
+}
+
+.stop {
+  color: red;
+}
